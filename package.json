@@ -1,0 +1,30 @@
+{
+  "name": "weather-app-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sascharissling/weather-app-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sascharissling/weather-app-tutorial/issues"
+  },
+  "homepage": "https://github.com/sascharissling/weather-app-tutorial#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "parcel-bundler": "^1.12.4",
+    "posthtml": "^0.12.0",
+    "posthtml-include": "^1.3.2",
+    "sass": "^1.23.3"
+  }
+}
